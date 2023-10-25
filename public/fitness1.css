@@ -1,0 +1,27 @@
+.titlebar{
+
+    background-color:rgb(255,255,255);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size:x-large;
+    padding: 20px;
+}
+
+.introduction{
+    display: block;
+    text-align: center;
+
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.matter{
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+body {
+    font-family: Verdana, sans-serif;
+}
+p {
+    font-size: 16px;
+}

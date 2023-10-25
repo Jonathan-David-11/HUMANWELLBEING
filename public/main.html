@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Care</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    
+</head>
+<body>
+    <div class="topnav">
+        <h1 class="title">health</h1>
+        <a href="#Mental health" onclick="goToMh()">Mental health</a>
+        <a href="#Fitness" onclick="goToFitness()">Fitness</a>
+
+        <a href="#About Us" onclick="goToaboutUs()">About Us</a>
+    </div>
+    <div class = "content">
+       
+        <div class="fitness" onclick="goToFitness()">
+            <img src="fitness-img.jpg">
+            <h3>How to keep your body fit ?</h3>
+        </div>
+        <div class="mental-health" onclick="goToMh()">
+            <img src="mental-health.jpg">
+            <h3> how to be mentally sound?</h3>
+        </div>
+        </div>
+    </div>
+</body>
+
+<script>
+    
+    function goToFitness(){
+        window.location.href = "fitness.html";
+    }
+    function goToMh(){
+        window.location.href = "mentalhealth.html";
+    }
+    function goToaboutUs(){
+       
+        window.location.href = "aboutUs.html";
+    }
+</script>
+</html>
